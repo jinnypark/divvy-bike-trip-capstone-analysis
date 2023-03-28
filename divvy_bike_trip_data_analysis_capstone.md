@@ -695,11 +695,7 @@ all_bike_trips_v2 %>%
   ggplot(aes (x = weekday, y = number_of_rides, fill = member_casual)) + geom_col(position = "dodge") +
   labs(x = "Weekdays", y = "Average Duration", title = "Number of Rides per Membership type", subtitle = "Comparing ridership between casual and member rider types over weekdays", caption = "Data from 2022-01 to 2022-12")
 ```
-
-    ## `summarise()` has grouped output by 'member_casual'. You can override using the
-    ## `.groups` argument.
-
-![](divvy_bike_trip_data_analysis_capstone_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/15963276/228146253-4b5ce8fe-9243-4f46-b76a-25e4fe7c51aa.png)
 
 This graph shows inverse relationship in ridership pattern among casual
 riders and members. Whereas members’ ridership peaked mid-week, casual
@@ -745,7 +741,8 @@ all_bike_trips_v2 %>%
     ## `summarise()` has grouped output by 'member_casual'. You can override using the
     ## `.groups` argument.
 
-![](divvy_bike_trip_data_analysis_capstone_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/15963276/228146350-529202fc-fc07-4ea0-8f05-fdf29f92e985.png)
+
 
 ``` r
 all_bike_trips_v2 %>% 
@@ -761,7 +758,8 @@ all_bike_trips_v2 %>%
     ## `summarise()` has grouped output by 'member_casual'. You can override using the
     ## `.groups` argument.
 
-![](divvy_bike_trip_data_analysis_capstone_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![image](https://user-images.githubusercontent.com/15963276/228146383-49d7f4c3-1312-40d0-a152-de90cd16d2b9.png)
+
 
 **Conclusion**
 
