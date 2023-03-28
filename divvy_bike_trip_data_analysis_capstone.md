@@ -1,6 +1,6 @@
 Divvy Bike Trip Data Analysis
 ================
-Jinny
+Jinny Park
 2023-03-28
 
 ## Background and Overview
